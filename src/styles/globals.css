@@ -1,0 +1,16 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+}
+
+/* Ensure full page background is white */
+html, body, #root {
+  background-color: #ffffff;
+}
+
+/* Additional safety for any Tailwind layers */
+body {
+  background-color: white;
+}
