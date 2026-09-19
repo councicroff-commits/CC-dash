@@ -50,7 +50,7 @@ export const AuthContext = createContext<AuthContextType | undefined>(undefined)
 // 🔥 DYNAMIC PERMANENT FIX for Auth (Includes /api/v1/auth prefix)
 // 🔥 DYNAMIC PERMANENT FIX for Auth (Cleaned single slash)
 const getApiBaseUrl = () => {
-  return 'https://cc-backend-yc-team.onrender.com/api/v1/auth';
+  return 'https://cc-backend-production-00fe.up.railway.app/api/v1/auth';
 };
 
 const API_BASE_URL = getApiBaseUrl();
