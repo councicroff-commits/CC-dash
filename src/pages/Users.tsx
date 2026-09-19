@@ -19,7 +19,7 @@ export interface UserNode {
 }
 
 // Permanent Production API Base URL
-const API_BASE_URL = 'https://cc-backend-yc-team.onrender.com/api/v1';
+const API_BASE_URL = 'https://cc-backend-production-00fe.up.railway.app/api/v1';
 
 const Users: React.FC = () => {
   const [users, setUsers] = useState<UserNode[]>([]);
