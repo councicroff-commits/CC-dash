@@ -64,7 +64,7 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 // CONSTANTS — permanent production base (same style as AuthContext)
 // =================================================================
 const getApiBaseUrl = () => {
-  return 'https://cc-backend-yc-team.onrender.com/api/v1';
+  return 'https://cc-backend-production-00fe.up.railway.app/api/v1';
 };
 
 const API_BASE_URL = getApiBaseUrl();
