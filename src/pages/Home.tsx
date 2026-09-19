@@ -57,7 +57,7 @@ interface HomeContent {
 
 // 🔥 DYNAMIC PERMANENT FIX for Home Editor (Cleaned single slash)
 const getApiBaseUrl = () => {
-  return 'https://cc-backend-production-00fe.up.railway.app/api/v1/home';
+  return 'https://cc-backend-production-00fe.up.railway.app/api/v1';
 };
 
 const API_BASE_URL = getApiBaseUrl();
